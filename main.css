@@ -2,7 +2,7 @@
     box-sizing: border-box;
     font-family: 'Roboto Mono', monospace;
     font-size: 28px;
-    
+
 }
 body{
     margin: 0;
@@ -60,7 +60,7 @@ header{
 }
 .main-images{
     min-width: 50vh;
-    background-image:url(/main-image.jpeg);
+    background-image:url("main-image.jpeg");
     background-size: cover;
     background-position: center;
     border-radius: 20px;
