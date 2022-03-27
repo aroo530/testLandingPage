@@ -18,9 +18,11 @@ header {
     'left left left right right'
     'footer footer footer footer footer';
     align-items: center;
+    justify-items: stretch;
 }
 .left,.right{
     padding: 20px 50px;
+    margin-bottom: 70px;
 }
 
 .left{
@@ -38,10 +40,18 @@ header {
 footer{
     grid-area: footer;
     text-align: center;
-    border-top: black solid 3px;
-    padding: 10px 30px;
+    border-top: black solid 2px;
+    background-color: rgb(22, 21, 26);
+    box-shadow: 0px -4px 20px 0px rgb(0 0 0 / 40%);
+    margin: 0px;
+    padding: 0px;
 }
- 
+footer p{
+    color: rgb(248, 246, 246);
+    margin: 10px;
+    padding: 0px;
+    font-size: .8em;
+}
 .flex-header{
     grid-area: header;
     display: flex;
@@ -95,6 +105,7 @@ footer{
       }
       .left,.right{
         padding: 10px 30px;
+        margin-bottom: 0px;
     }
     
 }
